@@ -4,6 +4,8 @@ project(Kobra)
 
 set(SRC_FILES
     kobra/src/kobra.cpp
+    lexer/src/lexer.cpp
+    func/src/func.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
